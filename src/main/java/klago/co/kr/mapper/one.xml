@@ -18,7 +18,7 @@
 	</select>
 	
 	<update id="test">
-		update ${DBERP}.abin
+		update erp_1234.abin
 	</update>
 	
 	<delete id="test">
@@ -28,8 +28,8 @@
 	<select id="test">
 		select *
 		from(select *
-			 from erp_1234.abin
-			 left join erp_1234.abin
+			 from  ${DBERP}.abin
+			 left join  ${DBERP}.abin
 		
 		)
 	</select>
