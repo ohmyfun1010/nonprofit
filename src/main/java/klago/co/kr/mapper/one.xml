@@ -27,8 +27,7 @@
 	
 	<select id="test">
 		select *
-		from (
-			select *
+		from(select *
 			 from erp_1234.abin
 			 left join erp_1234.abin
 		
