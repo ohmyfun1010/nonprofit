@@ -27,7 +27,12 @@
 	
 	<select id="test">
 		select *
-		from ${DBERP}.abin
+		from (
+			select *
+			 from erp_1234.abin
+			 left join erp_1234.abin
+		
+		)
 	</select>
 	
 	<select id="test">
