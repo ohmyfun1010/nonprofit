@@ -11,8 +11,16 @@
 	
 	<select id="test">
 		select *
-		from ( select from erp_1234.abin)
+		from ( select from ${DBERP}.abin)
 	</select>
+	
+	<update id="test">
+		update erp_1234.abin
+	</update>
+	
+	<delete id="test">
+		delete from erp_1234.abin
+	</delete>
 	
 	<select id="test">
 		select *
