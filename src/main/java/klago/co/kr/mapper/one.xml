@@ -8,13 +8,13 @@
 		select a.get_no
 				,a.no
 				,a.efe
-		from ${DBERP}.abin a
+		from${DBERP}.abin a
 	</select>
 	
 	<select id="test">
 		select *
-		from ${DBERP}.abin
-		left join ${DBERP}.abin
+		from${DBERP}.abin
+		left join${DBERP}.abin
 	</select>
 	
 	<update id="test">
