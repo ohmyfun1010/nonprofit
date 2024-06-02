@@ -5,14 +5,16 @@
 <mapper namespace="com.info.production.mapper.EquipmentMapper">
 	
 	<select id="test">
-		select *
-		from ${DBERP}.abin
+		select a.get_no
+				,a.no
+				,a.efe
+		from ${DBERP}.abin a
 	</select>
 	
 	<select id="test">
 		select *
 		from ${DBERP}.abin
-		left join erp_1234.abin
+		left join ${DBERP}.abin
 	</select>
 	
 	<update id="test">
