@@ -13,12 +13,13 @@
 	
 	<select id="test">
 		select *
-		from${DBERP}.abin
-		left join${DBERP}.abin
+		from                               
+				erp_1234.abin
+		left join					${DBERP}.abin
 	</select>
 	
 	<update id="test">
-		update erp_1234.abin
+		update ${DBERP}.abin
 	</update>
 	
 	<delete id="test">
