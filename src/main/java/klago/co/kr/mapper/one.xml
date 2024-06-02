@@ -6,12 +6,12 @@
 	
 	<select id="test">
 		select *
-		from erp_1234.abin
+		from ${DBERP}.abin
 	</select>
 	
 	<select id="test">
 		select *
-		from ${DBERP}.abin
+		from ( select from ${DBERP}.abin)
 	</select>
 	
 	<select id="test">
